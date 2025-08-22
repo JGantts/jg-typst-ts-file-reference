@@ -1,3 +1,5 @@
+# DEFAULT README LEFT IN PLACE
+
 # Quasar App (quasar-project)
 
 A Quasar Project
