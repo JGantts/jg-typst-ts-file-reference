@@ -1,4 +1,4 @@
-# DEFAULT README LEFT IN PLACE
+# DEFAULT QUASAR README LEFT IN PLACE
 
 # Quasar App (quasar-project)
 
