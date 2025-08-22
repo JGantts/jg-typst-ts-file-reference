@@ -1,8 +1,8 @@
 /// <reference types="vite/client" />
 import { shallowRef } from 'vue';
-import tpl from 'src/templates/category-totals.typ?raw';
+import tpl from 'src/templates/category-totalsB.typ?raw';
 
-export const typstTemplate = shallowRef<string>(tpl);
+export const typstTemplateB = shallowRef<string>(tpl);
 
 // HMR: reload when the .typ changes
 if (import.meta.hot) {
@@ -13,10 +13,10 @@ if (import.meta.hot) {
     'default' in m &&
     typeof (m as { default: unknown }).default === 'string';
 
-  import.meta.hot.accept(['src/templates/category-totals.typ?raw'], (mods) => {
+  import.meta.hot.accept(['src/templates/category-totalsB.typ?raw'], (mods) => {
     const mod = mods[0];
     if (isRawModule(mod)) {
-      typstTemplate.value = mod.default;
+      typstTemplateB.value = mod.default;
     }
   });
 }
